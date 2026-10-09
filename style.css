@@ -5,3 +5,54 @@
   margin: 20px;
   font-family: sans-serif;
 }
+/* GAME CONTROLS AREA */
+#game-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 40px auto;
+}
+
+/* RED SEARCH BAR */
+#player-input {
+  border: 2px solid red;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 250px;
+  outline: none;
+}
+
+/* TIMER DISPLAY */
+#timer-display {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+/* BRACKETS CONTAINER */
+#brackets-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+/* INDIVIDUAL YEAR BRACKET */
+.bracket {
+  width: 300px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.year {
+  font-weight: bold;
+  color: red;
+  margin-right: 10px;
+}
