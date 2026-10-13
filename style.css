@@ -56,3 +56,34 @@
   color: red;
   margin-right: 10px;
 }
+/* MESSAGE DISPLAY STYLING */
+#message-display {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: red;
+  height: 20px; /* Reserves space so page layout doesn't jump */
+  margin: 10px 0;
+}
+/* INSTRUCTIONS STYLING */
+#instructions {
+  max-width: 500px;
+  margin: 10px auto 20px auto;
+  padding: 15px;
+  background-color: #fff3f3;
+  border: 1px solid red;
+  border-radius: 8px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+#instructions h2 {
+  margin-top: 0;
+  color: red;
+  font-size: 18px;
+}
+
+#instructions ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
